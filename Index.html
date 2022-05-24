@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="wwwroot/css/HomePage.css" />
+    <link rel="stylesheet" href="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="wwwroot/js/site.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Responsive Navbar -->
+      <div class="topnav" id="myTopnav">
+        <a href="Index.html">الصفحة الرئيسية</a>
+        <a href="RamadanPage.html">عروض رمضان</a>
+        <a id="contact" href="ContactPage.html">للتواصل معنا</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+    <div class="body">
+      <div style="margin-top:40%" />
+      <div class="AdBlock">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!-- Full-width slides/quotes -->
+          <div class="mySlides" style="display:block;">
+            <h1>غسيل سيارات</h1>
+            <img src="wwwroot/img/CarWash.jpg" alt="Car Wash" class="responsive">
+          </div>
+
+          <div class="mySlides">
+            <h1>تغيير زيت</h1>
+            <img src="wwwroot/img/OilChanging.jpg" alt="Oil Changing" class="responsive">
+          </div>
+
+          <div class="mySlides">
+            <h1>غسيل سجاد</h1>
+            <img src="wwwroot/img/carpetWash.jpg" alt="Carpet Wash" class="responsive">
+          </div>
+
+          <div class="mySlides">
+            <h1>غسيل كيماوى</h1>
+            <img src="wwwroot/img/ChemWash.jpg" alt="Chemistry Wash" class="responsive">
+          </div>
+
+          <!-- Next/prev buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- Dots/bullets/indicators -->
+        <div class="dot-container">
+          <span class="dot active" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-white">
+      <div class="bg-light py-4">
+        <div class="container text-center">
+          <p class="text-center footer-text">© All rights reserved || Developed By
+            <a href="https://mostafa-shaban-mohamed.github.io/Index.html">Mostafa Shaaban</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
